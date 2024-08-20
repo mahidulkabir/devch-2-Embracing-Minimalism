@@ -4,12 +4,17 @@
 nav{
     display: flex;
     justify-content:space-around;
+    
 
+}
+.nav-left   {
+    margin-top: 15px;  
 }
 .nav-mid ul li {
     display: inline;
-    padding: 15px;
+    padding-right: 20px;
 }
+
 #list-1{
     font-weight: 700;
     color: #111729;
@@ -20,6 +25,7 @@ nav{
 .nav-right{
     display: flex;
     justify-content: space-around;
+    margin-top: 15px;
     background-color:#223344 ;
     width: 45px;
     height: 20px;
