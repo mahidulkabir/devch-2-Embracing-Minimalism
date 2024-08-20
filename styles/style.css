@@ -1,9 +1,12 @@
+/* Common styles  */
 .html,body{
     font-family: "Poppins", sans-serif;
+    margin: 50px 50px;
 }
+/* Header Section styles */
 nav{
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     
 
 }
@@ -41,4 +44,35 @@ nav{
     height: 20px;
     
     border-radius: 50%;
+}
+/* main body styles */
+.main-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.main-left{
+    width: 30%;
+    height:auto
+}
+.main-right{
+    width: 50%;
+    height: auto;
+}
+.main-right img{
+    width:100%;
+}
+.main-left-start{
+    font-weight: 600;
+    color: #111729;
+
+}
+.main-left-title{
+    color: #223344;
+    font-size: 4.2em;
+    text-align: left;
+}
+.main-left-des{
+    color: #909193;
+    text-align: left;
 }
