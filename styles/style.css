@@ -1,0 +1,38 @@
+.html,body{
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content:space-around;
+
+}
+.nav-mid ul li {
+    display: inline;
+    padding: 15px;
+}
+#list-1{
+    font-weight: 700;
+    color: #111729;
+}
+.list-a{
+    color:#223344 ;
+}
+.nav-right{
+    display: flex;
+    justify-content: space-around;
+    background-color:#223344 ;
+    width: 45px;
+    height: 20px;
+    border-radius: 20px;
+}
+.nav-rightl img{
+    
+    height: 20px;
+
+}
+.nav-righter img{
+    background-color: #fafafa;
+    height: 20px;
+    
+    border-radius: 50%;
+}
