@@ -1,23 +1,28 @@
 /* Common styles  */
 .html,body{
     font-family: "Poppins", sans-serif;
-    margin: 50px 50px;
+    background-color:#F2F9FE ;
+    height: 100%;
 }
 /* Header Section styles */
 nav{
     display: flex;
     justify-content:space-between;
+    margin: 0 80px;
+
     
 
 }
 .nav-left   {
-    margin-top: 15px;  
+    padding-top: 20px;
+   
+     
 }
 .nav-mid ul li {
     display: inline;
     padding-right: 20px;
 }
-
+ 
 #list-1{
     font-weight: 700;
     color: #111729;
@@ -48,19 +53,23 @@ nav{
 /* main body styles */
 .main-container{
     display: flex;
-    justify-content: space-between;
-    margin-top: 60px;
+    justify-content: space-around;
+    margin-top: 10px;
 }
 .main-left{
-    width: 30%;
-    height:auto
+    width: 40%;
+    height: 100%;
+    
 }
 .main-right{
-    width: 50%;
-    height: auto;
+    width: 40%;
+    
+   
 }
 .main-right img{
+    padding-top: 50px;
     width:100%;
+    height: auto;
 }
 .main-left-start{
     font-weight: 600;
@@ -69,10 +78,37 @@ nav{
 }
 .main-left-title{
     color: #223344;
-    font-size: 4.2em;
+    font-size: 4.8em;
     text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .main-left-des{
     color: #909193;
-    text-align: left;
+    word-spacing: 2px;
+   text-align: left;
+}
+.main-div-links button{
+    padding:15px 30px;
+    border-radius: 10px;
+    background-color: #2A4DD0;
+    color:#FFFFFF ;
+    font-weight: 700;
+    border: 0;
+    margin-right: 20px;
+}
+.main-div-links a{
+    color: #2A4DD0;
+    font-weight: 600;
+    text-underline-offset: 2px;
+    padding-bottom: 5px;
+    
+}
+.main-div-tick{
+    display: flex;
+  margin-top: 20px;
+    
+}
+#sp{
+    padding-right: 40px;
 }
