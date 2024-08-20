@@ -9,14 +9,9 @@ nav{
     display: flex;
     justify-content:space-between;
     margin: 0 80px;
-
-    
-
 }
 .nav-left   {
-    padding-top: 20px;
-   
-     
+    padding-top: 20px;    
 }
 .nav-mid ul li {
     display: inline;
@@ -40,15 +35,15 @@ nav{
     border-radius: 20px;
 }
 .nav-rightl img{
-    
     height: 20px;
-
 }
 .nav-righter img{
     background-color: #fafafa;
     height: 20px;
-    
     border-radius: 50%;
+}
+.nav-alt img{
+    width: 15px;
 }
 /* main body styles */
 .main-container{
@@ -62,9 +57,7 @@ nav{
     
 }
 .main-right{
-    width: 40%;
-    
-   
+    width: 40%;  
 }
 .main-right img{
     padding-top: 50px;
@@ -74,7 +67,6 @@ nav{
 .main-left-start{
     font-weight: 600;
     color: #111729;
-
 }
 .main-left-title{
     color: #223344;
@@ -111,4 +103,21 @@ nav{
 }
 #sp{
     padding-right: 40px;
+}
+/* For mobile device >640px */
+@media screen and (max-width:640px) {
+    .nav-mid{
+        display: none;
+    }
+    .nav-right{
+        display: none;
+    }
+}
+/* for tab 641-1024px */
+@media screen and (min-width:641) and (max-width: 1024) {
+    
+}
+/* for desktop 1025-1280 */
+@media screen and (min-width:1025) {
+    
 }
